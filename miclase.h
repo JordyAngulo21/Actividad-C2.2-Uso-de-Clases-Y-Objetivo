@@ -91,3 +91,40 @@ class Persona{
 			}
 		}
 		}
+
+///////////////////////////////////////
+//***HEREDIA RUIZ EMERSON JOAO***//
+//////////////////////////////////////
+
+	void lectura(){
+			ifstream archivo;
+			string texto;
+			archivo.open("datos del usiario.txt",ios::in);
+			if(archivo.fail()){
+				cout<<"no existe ";
+				exit(1);
+			}
+			
+			while (!archivo.eof()){
+			getline(archivo,texto);
+			cout<<texto<<endl;
+		}	
+		}
+
+};
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
