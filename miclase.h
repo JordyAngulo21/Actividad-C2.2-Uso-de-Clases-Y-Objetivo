@@ -121,9 +121,20 @@ class Persona{
 			cout<<"                                   Combate el sobrepeso!!                                       \n";	
 			}
 				
-			}
-		}
-		}
+                   #######################################################
+                   #     ROMMEL JEREMY ORTIZ NAPA                        #
+                   #######################################################
+			void save(){
+	
+			ofstream archivo("datos del usiario.txt");
+			archivo<<"cedula:  "<<cedula<<"\n\n";
+			archivo<<"nombres:  "<<apellidos<<"\n\n";
+			archivo<<"su fecha de nacimiento es: "<<an<<"/"<<mn<<"/"<<dn<<"\n\n";
+			archivo<<"su índice de masa corporal es:  "<<masa<<"\n\n";
+			cout<<"sus datos han sido guardados con éxito :)\n"<<"\n\n";
+			cout<<"gracias por utilizar el programa, hasta la próxima\n"<<"\n\n";
+			
+	
 
 ///////////////////////////////////////
 //***HEREDIA RUIZ EMERSON JOAO***//
