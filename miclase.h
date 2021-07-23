@@ -121,9 +121,9 @@ class Persona{
 			cout<<"                                   Combate el sobrepeso!!                                       \n";	
 			}
 				
-                   #######################################################
-                   #     ROMMEL JEREMY ORTIZ NAPA                        #
-                   #######################################################
+                   ////////////////////////////////////////
+                   //     ROMMEL JEREMY ORTIZ NAPA       //
+                   //////////////////////////////////////// 
 			void save(){
 	
 			ofstream archivo("datos del usiario.txt");
