@@ -120,6 +120,9 @@ class Persona{
 			cout<<"4. Comer varias veces al día fruta, así cereales integrales y frutos secos\n\n",
 			cout<<"                                   Combate el sobrepeso!!                                       \n";	
 			}
+		}
+		}
+		}
 				
                    ////////////////////////////////////////
                    //     ROMMEL JEREMY ORTIZ NAPA       //
@@ -133,7 +136,7 @@ class Persona{
 			archivo<<"su índice de masa corporal es:  "<<masa<<"\n\n";
 			cout<<"sus datos han sido guardados con éxito :)\n"<<"\n\n";
 			cout<<"gracias por utilizar el programa, hasta la próxima\n"<<"\n\n";
-			
+			}
 	
 
 ///////////////////////////////////////
